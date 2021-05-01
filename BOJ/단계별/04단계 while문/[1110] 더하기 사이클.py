@@ -1,15 +1,13 @@
-n = input()
-a = ''
-new = ''
-sum = 0
-
-if int(n)<10: n='0'+n
+n = int(input())
+count = 0
 temp = n
+new = null
 
-while(a!=n):
-    new = str(int(temp[0])+int(temp[1]))
-    a=temp[1] + new[len(new)-1]
-    temp = a
-    sum+=1
+while(n!=new):
+    a = temp%10
+    b = temp//10 + a
+    new = 10*a + b%10
+    temp = new
+    count += 1
 
-print(sum)
+print(count)
