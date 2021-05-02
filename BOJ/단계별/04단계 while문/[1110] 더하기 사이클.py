@@ -1,7 +1,7 @@
 n = int(input())
 count = 0
 temp = n
-new = null
+new = None
 
 while(n!=new):
     a = temp%10
