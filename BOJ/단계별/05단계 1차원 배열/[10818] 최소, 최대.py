@@ -8,6 +8,6 @@ print("삽입: ", a)
 a.sort()
 print("오름차순 정렬: ", a)
 
-# 내림차순 정
+# 내림차순 정렬
 a.sort(reverse = True)
 print("내림차순 정렬: ", a)
